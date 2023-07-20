@@ -29,7 +29,7 @@ jobs:
         shell: Rscript {0}
       - name: Fetch RSS
         run: |
-          Rscript R/fetch.R
+          Rscript fetch.R
       - name: Push results
         run: |
           git add --all *
