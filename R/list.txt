@@ -76,7 +76,6 @@
 "https://rsshub.app/weibo/user/1671109627","2023-07-20"
 "https://rsshub.app/weibo/user/1655755343","2023-07-20"
 "https://rsshub.app/weibo/user/5286768287","2023-07-20"
-"http://feeds.nature.com/nature/rss/current","2023-07-20"
 "https://pubmed.ncbi.nlm.nih.gov/rss/journals/7603509/?limit=20&name=Blood&utm_campaign=journals","2023-07-20"
 "https://pubmed.ncbi.nlm.nih.gov/rss/search/12guA9dSu1tIGuMz6q_NmVi5YCwW3jEzF9ajGRxJKG5GGImktL/?limit=50&utm_campaign=pubmed-2&fc=20220328030059","2023-07-20"
 "https://pubmed.ncbi.nlm.nih.gov/rss/search/1FakS-2QOkCT8HsMOQP1bCRQ4YzyumYOmxmF0moLsQ3dFB1E9V/?limit=20&utm_campaign=pubmed-2&fc=20220326224207","2023-07-20"
