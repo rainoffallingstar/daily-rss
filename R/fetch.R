@@ -1,12 +1,13 @@
-dir.create('content/post', showWarnings = FALSE)
+library(fs)
+library(scifetch)
+dir_delete('content/post')
+dir_create('content/post')
 d = Sys.Date()
-
 if (!file.exists(f <- 'R/list.txt')) writeLines('website, update', f)
 m = read.csv(f, colClasses = "character")
 d = as.character(d)
 x = NULL
 n = 0 
-
 for (i in 1:NROW(m)) {
         print(i)
         a <- try(scifetch::getrss(m[i,1]),T)
@@ -49,7 +50,6 @@ if(NROW(x)>0){
                 sink()
         }
 }
-
 
 write.csv(m[order(m$update), , drop = FALSE], f, row.names = FALSE)
 
