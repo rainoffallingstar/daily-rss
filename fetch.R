@@ -1,6 +1,6 @@
 library(fs)
 library(scifetch)
-dir_delete('content/post')
+#dir_delete('content/post')
 dir_create('content/post')
 d = Sys.Date()
 if (!file.exists(f <- 'R/list.txt')) writeLines('website, update', f)
