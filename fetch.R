@@ -20,16 +20,16 @@ for (i in 1:NROW(m)) {
                 # fewer characters for wider chars
                 description = substr(description, 1, 600 * nchar(description) / nchar(description, 'width'))
                 a$description = paste(sub(' +[^ ]{1,20}$', '', description), '...')
-                n <- sum(as.POSIXct(a$date[1:NROW(a)]) >= as.POSIXct(m[i,2]))
+                n2 <- sum(as.POSIXct(a$date[1:NROW(a)]) >= as.POSIXct(m[i,2]))
         }else{
-                n <- 0
+                n2 <- 0
         }
-        if(n>0){
-                temp <- a[1:n,]
+        if (n2 > 0) {
+                temp <- a[1:n2,]
                 x <- rbind(temp,x)
                 ## update date
                 m[i,2] <- d
-        }else{
+        } else {
                 n <-0
                 }
 }
