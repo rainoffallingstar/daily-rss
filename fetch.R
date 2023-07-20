@@ -29,7 +29,9 @@ for (i in 1:NROW(m)) {
                 x <- rbind(temp,x)
                 ## update date
                 m[i,2] <- d
-        }
+        }else{
+                n <-0
+                }
 }
 if(NROW(x)>0){
         for (i in 1:NROW(x)){
