@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # The directory to search
-dir=“content/post/”
+dir="content/post"
 
 # Find all .md files in the directory
 files=$(find "$dir" -type f -name "*.md")
