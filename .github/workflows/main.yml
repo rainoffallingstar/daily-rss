@@ -34,9 +34,6 @@ jobs:
       - name: Fetch RSS
         run: |
           Rscript fetch.R
-      - name: fix files
-        run:
-            sudo bash delete_duplication.sh
       - name: Push results
         run: |
           git add --all *
