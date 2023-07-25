@@ -1,9 +1,9 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Daily R"
+title = "Fallingstar Daily R"
 theme = "hugo-xmag"
 googleAnalytics = ""
-disqusShortname = "yufree"
+disqusShortname = "fallingsstar"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
@@ -33,8 +33,8 @@ enableEmoji = true
 [params]
     description = "light news/blog aggregator website for R"
     summary_length = 300
-    github_edit = "https://github.com/yufree/daily/edit/master/content/"
-    footer = "&copy; [Miao YU](https://yufree.cn) 2018 | [Github](https://github.com/yufree) | [Twitter](https://twitter.com/yu_free)"
+    github_edit = "https://github.com/rainoffallingstar/daily-rss/edit/master/content/"
+    footer = "&copy; [Fallingstar](https://rainoffallingstar.github.io) 2023 | [Github](https://github.com/rainoffallingstar)"
     
 [params.text]
     back = "&larr; Back to Home"
