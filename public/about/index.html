@@ -95,27 +95,27 @@
 <p>Use <code>getrss</code> from <a href="https://github.com/yufree/scifetch">scifetch</a> to convert rss xml file into dataframe and use the following code to generate <code>md</code> files and PR to this repo.</p>
 </li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#a6e22e">dir.exists</span>(<span style="color:#e6db74">&#34;content&#34;</span>)) <span style="color:#a6e22e">dir.create</span>(<span style="color:#e6db74">&#34;content&#34;</span>)
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#a6e22e">dir.exists</span>(<span style="color:#e6db74">&#34;content/post&#34;</span>)) <span style="color:#a6e22e">dir.create</span>(<span style="color:#e6db74">&#34;content/post&#34;</span>)
-</span></span><span style="display:flex;"><span>x <span style="color:#f92672">&lt;-</span> scifetch<span style="color:#f92672">::</span><span style="color:#a6e22e">getrss</span>(<span style="color:#e6db74">&#39;path-to-your-own-rss-xml-files&#39;</span>)
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#a6e22e">NROW</span>(x)) {
-</span></span><span style="display:flex;"><span>    name <span style="color:#f92672">=</span> <span style="color:#a6e22e">gsub</span>(<span style="color:#e6db74">&#34;^http[s]?://|/$&#34;</span>, <span style="color:#e6db74">&#34;&#34;</span>, <span style="color:#a6e22e">tolower</span>(x[i, <span style="color:#e6db74">&#39;linkTitle&#39;</span>]))
-</span></span><span style="display:flex;"><span>    name <span style="color:#f92672">=</span> <span style="color:#a6e22e">gsub</span>(<span style="color:#e6db74">&#34;%&#34;</span>, <span style="color:#e6db74">&#34;&#34;</span>, name)
-</span></span><span style="display:flex;"><span>    name <span style="color:#f92672">=</span> <span style="color:#a6e22e">gsub</span>(<span style="color:#e6db74">&#34;[^a-z0-9]+&#34;</span>, <span style="color:#e6db74">&#34;-&#34;</span>, name)
-</span></span><span style="display:flex;"><span>    name <span style="color:#f92672">=</span> <span style="color:#a6e22e">gsub</span>(<span style="color:#e6db74">&#34;--+&#34;</span>, <span style="color:#e6db74">&#34;-&#34;</span>, name)
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># file name too long issue</span>
-</span></span><span style="display:flex;"><span>    name <span style="color:#f92672">=</span> <span style="color:#a6e22e">substr</span>(name, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">200</span>)
-</span></span><span style="display:flex;"><span>    p <span style="color:#f92672">=</span> <span style="color:#a6e22e">sprintf</span>(<span style="color:#e6db74">&#39;content/post/%s.md&#39;</span>, <span style="color:#a6e22e">paste0</span>(name))
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">sink</span>(p)
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">cat</span>(<span style="color:#e6db74">&#39;---\n&#39;</span>)
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">cat</span>(yaml<span style="color:#f92672">::</span><span style="color:#a6e22e">as.yaml</span>(x[i,],))
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">cat</span>(<span style="color:#e6db74">&#39;disable_comments: true\n&#39;</span>)
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">cat</span>(<span style="color:#e6db74">&#39;---\n&#39;</span>)
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">cat</span>(<span style="color:#a6e22e">as.character</span>(x[i, <span style="color:#ae81ff">5</span>]))
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">sink</span>()
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">if </span>(<span style="color:#f92672">!</span><span style="color:#a6e22e">dir.exists</span>(<span style="color:#e6db74">&#34;content&#34;</span>)) <span style="color:#a6e22e">dir.create</span>(<span style="color:#e6db74">&#34;content&#34;</span>)
+<span style="color:#a6e22e">if </span>(<span style="color:#f92672">!</span><span style="color:#a6e22e">dir.exists</span>(<span style="color:#e6db74">&#34;content/post&#34;</span>)) <span style="color:#a6e22e">dir.create</span>(<span style="color:#e6db74">&#34;content/post&#34;</span>)
+x <span style="color:#f92672">&lt;-</span> scifetch<span style="color:#f92672">::</span><span style="color:#a6e22e">getrss</span>(<span style="color:#e6db74">&#39;path-to-your-own-rss-xml-files&#39;</span>)
+<span style="color:#a6e22e">for </span>(i in <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#a6e22e">NROW</span>(x)) {
+    name <span style="color:#f92672">=</span> <span style="color:#a6e22e">gsub</span>(<span style="color:#e6db74">&#34;^http[s]?://|/$&#34;</span>, <span style="color:#e6db74">&#34;&#34;</span>, <span style="color:#a6e22e">tolower</span>(x[i, <span style="color:#e6db74">&#39;linkTitle&#39;</span>]))
+    name <span style="color:#f92672">=</span> <span style="color:#a6e22e">gsub</span>(<span style="color:#e6db74">&#34;%&#34;</span>, <span style="color:#e6db74">&#34;&#34;</span>, name)
+    name <span style="color:#f92672">=</span> <span style="color:#a6e22e">gsub</span>(<span style="color:#e6db74">&#34;[^a-z0-9]+&#34;</span>, <span style="color:#e6db74">&#34;-&#34;</span>, name)
+    name <span style="color:#f92672">=</span> <span style="color:#a6e22e">gsub</span>(<span style="color:#e6db74">&#34;--+&#34;</span>, <span style="color:#e6db74">&#34;-&#34;</span>, name)
+    <span style="color:#75715e"># file name too long issue</span>
+    name <span style="color:#f92672">=</span> <span style="color:#a6e22e">substr</span>(name, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">200</span>)
+    p <span style="color:#f92672">=</span> <span style="color:#a6e22e">sprintf</span>(<span style="color:#e6db74">&#39;content/post/%s.md&#39;</span>, <span style="color:#a6e22e">paste0</span>(name))
+    
+    <span style="color:#a6e22e">sink</span>(p)
+    <span style="color:#a6e22e">cat</span>(<span style="color:#e6db74">&#39;---\n&#39;</span>)
+    <span style="color:#a6e22e">cat</span>(yaml<span style="color:#f92672">::</span><span style="color:#a6e22e">as.yaml</span>(x[i,],))
+    <span style="color:#a6e22e">cat</span>(<span style="color:#e6db74">&#39;disable_comments: true\n&#39;</span>)
+    <span style="color:#a6e22e">cat</span>(<span style="color:#e6db74">&#39;---\n&#39;</span>)
+    <span style="color:#a6e22e">cat</span>(<span style="color:#a6e22e">as.character</span>(x[i, <span style="color:#ae81ff">5</span>]))
+    <span style="color:#a6e22e">sink</span>()
+}
+</code></pre></div><ul>
 <li>Add comma and your name to the <code>YAML</code> front matter block in contributor.md</li>
 </ul>
 <h1 id="recipe">Recipe</h1>
@@ -157,8 +157,8 @@ setTimeout(function() { if(re.test(url)) {window.location.href = url} }, 10000);
 
 <section class="comments">
 	<div id="disqus_thread"></div>
-<script>
-    window.disqus_config = function () {
+<script type="application/javascript">
+    var disqus_config = function () {
     
     
     
