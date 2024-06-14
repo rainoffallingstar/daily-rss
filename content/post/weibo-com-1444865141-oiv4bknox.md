@@ -1,0 +1,9 @@
+---
+title: 从来不知道自己是mbti里的哪一型，因为没有一次有耐心做完所有的测试问题……
+date: '2024-06-14'
+linkTitle: https://weibo.com/1444865141/OiV4Bknox
+source: 马伯庸的微博
+description: 从来不知道自己是mbti里的哪一型，因为没有一次有耐心做完所有的测试问题……  ...
+disable_comments: true
+---
+从来不知道自己是mbti里的哪一型，因为没有一次有耐心做完所有的测试问题……  ...
