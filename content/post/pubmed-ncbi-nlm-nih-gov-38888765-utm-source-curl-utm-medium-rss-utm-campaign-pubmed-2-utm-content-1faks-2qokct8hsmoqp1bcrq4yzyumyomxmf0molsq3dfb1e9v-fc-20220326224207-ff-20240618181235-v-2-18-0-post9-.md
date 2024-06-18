@@ -1,0 +1,11 @@
+---
+title: 'Correction: Development and evaluation of two open-source nnU-Net models for
+  automatic segmentation of lung tumors on PET and CT images with and without respiratory
+  motion compensation'
+date: '2024-06-18'
+linkTitle: https://pubmed.ncbi.nlm.nih.gov/38888765/?utm_source=curl&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1FakS-2QOkCT8HsMOQP1bCRQ4YzyumYOmxmF0moLsQ3dFB1E9V&fc=20220326224207&ff=20240618181235&v=2.18.0.post9+e462414
+source: heidelberg[Affiliation]
+description: No ...
+disable_comments: true
+---
+No ...
