@@ -1,6 +1,6 @@
 ---
 title: '张敬信发表了文章: 【暑期班】2024年暑期“R语言基础与机器学习”培训邀请函'
-date: '2024-06-12'
+date: '2024-06-20'
 linkTitle: https://zhuanlan.zhihu.com/p/703000435
 source: 张敬信的知乎动态
 description: <p data-pid="u2Rdtcif"> R语言是由统计学家专为统计计算、数据分析和可视化而设计的统计编程语言，具有顶尖水准的绘图功能；tidyverse
