@@ -1,0 +1,13 @@
+---
+title: //@Tuckson:一个版本没跟上就完蛋的游戏，我们一般叫逼氪逼肝，一个是策划运营是要被骂死的，第二个是留存不住什么玩家。所以不用说很多人为啥地球online主动退...
+date: '2024-06-29'
+linkTitle: https://weibo.com/2103074805/Olcazyvys
+source: 洛缙_何妨淫笑且徐行的微博
+description: //<a href="https://weibo.com/n/Tuckson">@Tuckson</a>:一个版本没跟上就完蛋的游戏，我们一般叫逼氪逼肝，一个是策划运营是要被骂死的，第二个是留存不住什么玩家。所以不用说很多人为啥地球online主动退坑了。多半是运营方的责任。而且作为一个邀请制的游戏，以前老玩家还愿意请请新玩家，现在新玩家都大量减少了，真完蛋。<br><blockquote>
+  - 转发 <a href="https://weibo.com/2684875232" target="_blank">@全是聊天表情包</a>: 中国人这关键的一生……
+  <img style="" src="https://tvax4.sinaimg.cn/large/a007f1e0ly1hr2twvrqhgj20u0141wm9.jpg"
+  referrerpolicy="no-referrer"><br><br><img style="" src="https://tvax2.sinaimg.cn/large/a007f1e0ly1hr2tww3hhmj20u0141jxp.jpg"
+  ...
+disable_comments: true
+---
+//<a href="https://weibo.com/n/Tuckson">@Tuckson</a>:一个版本没跟上就完蛋的游戏，我们一般叫逼氪逼肝，一个是策划运营是要被骂死的，第二个是留存不住什么玩家。所以不用说很多人为啥地球online主动退坑了。多半是运营方的责任。而且作为一个邀请制的游戏，以前老玩家还愿意请请新玩家，现在新玩家都大量减少了，真完蛋。<br><blockquote> - 转发 <a href="https://weibo.com/2684875232" target="_blank">@全是聊天表情包</a>: 中国人这关键的一生…… <img style="" src="https://tvax4.sinaimg.cn/large/a007f1e0ly1hr2twvrqhgj20u0141wm9.jpg" referrerpolicy="no-referrer"><br><br><img style="" src="https://tvax2.sinaimg.cn/large/a007f1e0ly1hr2tww3hhmj20u0141jxp.jpg" ...
