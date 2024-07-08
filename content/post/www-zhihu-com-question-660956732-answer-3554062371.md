@@ -1,5 +1,5 @@
 ---
-title: '张敬信回答了问题: R语言：编写程序，按1.xlsx中的单元格，从2.csv中选取数据，代入3.xlsx文件并输出？'
+title: '张敬信回答了问题: 按1.xlsx中的单元格，2.csv中选取数据，代入3.xlsx文件并输出结果，R语言如何编写程序？'
 date: '2024-07-07'
 linkTitle: https://www.zhihu.com/question/660956732/answer/3554062371
 source: 张敬信的知乎动态
