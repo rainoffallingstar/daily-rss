@@ -1,0 +1,9 @@
+---
+title: 今天therapist说”off record, I enjoy talking to you”。我们用了很久聊了CBT循证，然后我给他看了一下我们昨天新闻发布，解释了临床试验意义。我说我们工作都...
+date: '2024-09-14'
+linkTitle: https://weibo.com/1251560221/OwUyY8KpD
+source: 子陵在听歌的微博
+description: 今天therapist说”off record, I enjoy talking to you”。我们用了很久聊了CBT循证，然后我给他看了一下我们昨天新闻发布，解释了临床试验意义。我说我们工作都是看chart。我觉得最近几次我们更像是同事讨论项目和数据，而不是在做therapy。  ...
+disable_comments: true
+---
+今天therapist说”off record, I enjoy talking to you”。我们用了很久聊了CBT循证，然后我给他看了一下我们昨天新闻发布，解释了临床试验意义。我说我们工作都是看chart。我觉得最近几次我们更像是同事讨论项目和数据，而不是在做therapy。  ...
