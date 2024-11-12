@@ -54,7 +54,6 @@
 "https://rsshub.app/zhihu/people/activities/huc_zhangjingxin","2024-08-18"
 "https://rsshub.app/bilibili/user/video/67141499","2024-08-18"
 "https://rsshub.app/zhihu/people/activities/wu-ya-shang-wei-84","2024-08-19"
-"https://rsshub.app/weibo/user/3251498294","2024-08-22"
 "https://rsshub.app/bilibili/user/video/401814844","2024-08-23"
 "https://rsshub.app/bilibili/user/video/1529656577/","2024-08-26"
 "https://rsshub.app/bilibili/user/video/526894060","2024-08-27"
@@ -112,3 +111,4 @@
 "https://rsshub.app/weibo/user/1251560221","2024-11-09"
 "https://rsshub.app/weibo/user/7332621109","2024-11-10"
 "https://rsshub.app/pubmed/trending","2024-11-10"
+"https://rsshub.app/weibo/user/3251498294","2024-11-12"
